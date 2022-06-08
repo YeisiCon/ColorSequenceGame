@@ -1,0 +1,141 @@
+.hide{
+    display :none;
+    
+}
+.celeste.hide{
+  display :none;
+  
+}
+.celeste{
+  height: 100px;
+   width: 100px;
+  border-top-left-radius: 100%;
+  box-shadow: 2px 2px 8px 0px #ccc8c878;
+ 
+
+}
+.violeta{
+  height: 100px;
+   width: 100px;
+   border-bottom-left-radius: 100%;
+   box-shadow: 2px 3px 8px 0px #ccc8c878;
+}
+
+.violeta.light{
+  opacity: 0.5;
+}
+
+.celeste.light{
+  opacity: 0.5;
+}
+
+.naranja.light{
+  opacity: 0.5;
+
+}
+
+.verde.light{
+  opacity: 0.5;
+}
+
+.naranja{
+  height: 100px;
+   width: 100px;
+  border-bottom-right-radius: 100%;
+  box-shadow: 2px 2px 8px 0px #ccc8c878;
+}
+
+.general{
+  justify-content:center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  display:flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 8px 0px #ccc8c878;
+}
+
+.light{
+    opacity: 0.5;
+}
+
+.verde{
+  height: 100px;
+  width: 100px;
+  border-top-right-radius: 100%;
+  position: relative;
+  box-shadow: 3px 3px 8px 0px #ccc8c878;
+}
+
+h1{
+  text-align: center;
+}
+
+button{
+    
+display: block;
+ background-color: #fad0fa;
+ padding: 10px 45px 10px 45px;
+ border: 2px;
+ border-radius: 12px;
+ font-size: 1em; 
+ color: 	#050505;
+font-family: "Roboto", sans-serif;
+justify-content:last baseline;
+align-items: flex-start;
+position: absolute;
+width:22% ;
+box-shadow: 3px 3px 8px 0px #ccc8c878;
+
+
+
+}
+.container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 5px;
+  border-style:   solid;
+  height: 400px;
+  flex-direction: column;
+  background-image: url(img/images\ \(1\).jpg);
+  background-repeat: no-repeat;
+  
+  
+  
+
+}
+
+.line{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.exampleone {
+	background-image: url("img/images\ \(1\).jpg");
+	background-position: top center;
+}
+
+.exampletwo {
+	background-image: url("img/images.jpg");
+	background-position: 25% 75%;
+}
+
+.examplethree {
+	background-image: url("img/pngtree-game-professional-training-psd-layered-master-map-background-material-image_126851.jpg");
+	background-position: 2cm bottom;
+}
+
+.examplefour {
+	background-image: url("logo.png");
+	background-position: center 10%;
+}
+
+.examplefive {
+	background-image: url("logo.png");
+	background-position: 2cm 50%;
+}
+

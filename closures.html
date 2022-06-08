@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=scr, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+     function crearSaludo(finalFrase){
+         return function(nombre){
+             console.log(`Hola ${nombre} ${finalFrase}`)
+         }
+     }
+
+   const saludoArgentino = crearSaludo('che')
+   const saludocolombiano = crearSaludo('amigo')
+   const saludoMexcano = crearSaludo('guey')
+
+   saludoArgentino('sasha')
+   saludoMexcano('sasha')
+   saludocolombiano('sasha')
+
+</script>
+</body>
+</html>

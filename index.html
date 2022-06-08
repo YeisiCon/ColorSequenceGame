@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego en JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>BIENVENIDO</h1>
+    <div class="container">
+      <div class="line">
+        <div
+          id="celeste"
+          class="color celeste left"
+          name="celeste"
+          data-color="celeste"
+          data-numero="0"
+          style="background-color: #2e3bf1"
+        ></div>
+        <div
+          id="verde"
+          class="color verde right"
+          name="verde"
+          data-color="verde"
+          data-numero="3"
+          style="background-color: #1de627"
+        ></div>
+      </div>
+      <button
+        id="btnEmpezar"
+        class="btn-start"
+        name="btnEmpezar"
+        onclick="EmpezarJuego()"
+      >
+        Empezar juego
+      </button>
+      <div class="line">
+        <div
+          id="violeta"
+          class="color violeta right"
+          name="violeta"
+          data-color="violeta"
+          data-numero="1"
+          style="background-color: #d801eb"
+        ></div>
+        <div
+          id="naranja"
+          class="color naranja left"
+          name="naranja"
+          data-color="naranja"
+          data-numero="2"
+          style="background-color: #f36614"
+        ></div>
+      </div>
+    </div>
+  </body>
+  <script src="controlador.js"></script>
+</html>
